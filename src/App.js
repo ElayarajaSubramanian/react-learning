@@ -12,7 +12,7 @@ function App() {
     <div>
       <Header/>
       <h1 className='text-4xl text-yellow-700 mx-auto w-[92%] text-center py-10'>Welcome to our website</h1>
-      {active && <Tabset/>}
+      <Tabset/>
     </div>
   );
 }
